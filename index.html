@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+	<title>FOLDER</title>
+	<meta charset="utf-8">
+  	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	<link rel="shortcut icon" type="image/x-icon" href="favicon_ED.ico">
+ 	<!-- font-awesome -->
+  	<link
+    rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+  	<!-- file styles -->
+  	<link rel="stylesheet" href="./src/css/styles.css" />
+  	<link rel="stylesheet" href="./src/css/gradients.css" />
+</head>
+<body>
+
+	<!--- HEADER  --->
+	<header id="home">
+		<!-- navbar -->
+		<nav id="nav">
+			<!-- nav center -->
+			<div class="nav-center">
+				<!-- nav header -->
+				<div class="nav-header">
+					<img src="./assets/logos/logo.png" class="logo" alt="logo" />
+					<div class="name">
+						<h1><span class="txt anim-text-flow">elfren danilo</span></h1>
+					</div>
+					<button class="nav-toggle">
+						<div class="toggle-bar"></div>
+					</button>
+				</div>
+				<!-- links -->
+				<div class="links-container">
+					<ul class="links">
+						<li><a href="#home" class="scroll-link lang" key="home">home</a></li>
+						<li><a href="#about" class="scroll-link lang" key="about">about</a></li>
+						<li><a href="#gallery" class="scroll-link lang" key="gallery">gallery</a></li>
+						<li><a href="#contact" class="scroll-link lang" key="contact">contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- banner -->
+		<div class="banner">
+			<div class="container">
+				<img src="./assets/logos/img_central.png" alt="img_central">
+				<h1><span class="txt anim-text-flow lang" id="title">graphic designer</span></h1>
+				<p class="lang" id="phrase">
+            		“Graphic design isn' t what you see, but what you should make other people see”
+            		<br/>(Edgar Degas)
+          		</p>
+          		<a href="./public/components/CV.pdf" class="btn btn-white lang" id="res" target="_Blank">
+            		resumen <i class="fas fa-file-download"></i>
+          		</a>
+			</div>
+		</div>
+		<!-- wave -->
+		<div class="wave" style="height: 120px; overflow: hidden;">
+			<svg  viewBox="0 0 500 150"preserveAspectRatio="none" style="height: 100%; width: 100%;">
+			<path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" 
+          	style="stroke:none; fill: #f1f5f8;"></path></svg>
+      	</div>
+	</header>
+
+	<!--- MAIN  --->
+	<main>
+		<!-- About -->
+		<section id="about" class="section">
+			<div class="title">
+				<h2 class="lang" id="abm">about <span>me</span></h2>
+			</div>
+			<div class="internal-container">
+				<div class="circle1">
+					<img src="./assets/logos/CS6.png" alt="">
+				</div>
+				<div class="text lang" id="summary">
+					<h3>Summary...</h3>
+            		<p>
+              			After years of experience, I have made the decision to reorient my professional career with the aim of continuing to learn and, also, contribute all my experience acquired. I consider change to be a sign of ability to overcome and, therefore, I think I would always be able to add value to the work I do for my clients.
+              			<br><br>
+
+              			My main objective is to develop professionally and evolve in my sector, so I look for opportunities that allow me to do so, while trying to align myself completely with the objectives of customers.
+            		</p>
+				</div>
+				<div class="circle2">
+					<img src="./assets/logos/AdobeIlus.png" alt="">
+				</div>
+			</div>
+		</section>
+		<!-- Gallery -->
+		<section id="gallery" class="section">
+			<div class="title">
+          		<h2 class="lang" id="gly">my <span>gallery</span></h2>
+        	</div>
+        	<div class="internal-container">
+        		<!-- menu movil -->
+        		<div class="index-btn">
+        			<button class="more-button">
+              			<div class="menu-icon">
+               				<img id="canister" src="./assets/logos/botelleno.png" alt="botevacio">
+              			</div>
+            		</button>
+            		<ul class="index-movil more-button-list">
+            			<li class="link active lang more-button-list-item" data-name="all-designs" id="all">
+            				<span>All Designs</span>
+            			</li>
+             	 		<li class="link lang more-button-list-item" data-name="boxs-designs" id="box">
+             	 			<span>Boxs Designs</span>
+             	 		</li>
+              			<li class="link lang more-button-list-item" data-name="books-designs" id="book">
+              				<span>Books Designs</span>
+              			</li>
+              			<li class="link lang more-button-list-item" data-name="booklets-designs" id="booklet">
+              				<span>Booklet Designs</span>
+              			</li>
+              			<li class="link lang more-button-list-item" data-name="calendars-designs" id="calendar">
+              				<span>Calendar Designs</span>
+              			</li>
+              			<li class="link lang more-button-list-item" data-name="cards-designs" id="card">
+              				<span>Card Designs</span>
+              			</li>
+              			<li class="link lang more-button-list-item" data-name="labels-designs" id="label">
+              				<span>Label Designs</span>
+              			</li>
+              			<li class="link lang more-button-list-item" data-name="magazines-designs" id="magazine">
+              				<span>Magazine Designs</span>
+              			</li>
+              			<li class="link lang more-button-list-item" data-name="documents-designs" id="document">
+              				<span>Document Designs</span>
+              			</li>
+            		</ul>
+        		</div>
+        		<!-- Gallery -->
+          		<div class="gallery">
+          			<li class="image box filter boxs-designs"><h4 class="lang" key="bxh0">hedelix box</h4><img src="./public/images/Caja Hedelix-1.jpg" class="img img-0" alt="<h1>hedelix</h1>"></li>
+			        <li class="image box filter boxs-designs"><h4 class="lang" key="bxh1">hedelix box</h4><img src="./public/images/Caja Hedelix-2.jpg" class="img img-1" alt="<h1>hedelix</h1>"></li>
+			        <li class="image box filter boxs-designs"><h4 class="lang" key="bxhp">hepatab-550 box</h4><img src="./public/images/Caja Hepatab-550.jpg" class="img img-2" alt="<h1>Hepatab-550</h1>"></li>
+
+			        <li class="image box filter boxs-designs"><h4 class="lang" key="bxb">baxter box</h4><img src="./public/images/Baxter Caja Enero 2021.jpg" class="img img-3" alt="<h1>Baxter</h1>"></li>
+          			<li class="image box filter boxs-designs"><h4 class="lang" key="bxc">condesa coffee box</h4><img src="./public/images/Cafe Condesa Caja.jpg" class="img img-4" alt="<h1>Cafe Condesa</h1>"></li>
+          			<li class="image box filter boxs-designs"><h4 class="lang" key="bxp">children's phartek box</h4><img src="./public/images/Caja Phartek Ninos 3.jpg" class="img img-5" alt="<h1>Phartek Niños</h1>"></li>
+
+          			<li class="image box filter books-designs"><h4 class="lang" id="bke">inde book<br><p>(external page)</p></h4><img src="./public/images/Nuevo Cuaderno Inde-1.jpg" class="img img-6" alt="<h1>Inde</h1>"></li>
+		          	<li class="image box filter books-designs"><h4 class="lang" id="bki">inde book<br><p>(internal page)</p></h4><img src="./public/images/Nuevo Cuaderno Inde-3.jpg" class="img img-7" alt="<h1>Inde</h1>"></li>
+		          	<li class="image box filter books-designs"><h4 class="lang" id="bke1">inde book<br><p>(external page)</p></h4><img src="./public/images/Nuevo Cuaderno Inde-8.jpg" class="img img-8" alt="<h1>Inde</h1>"></li>
+
+		          	<li class="image box filter books-designs"><h4 class="lang" id="bki1">inde book<br><p>(internal page)</p></h4><img src="./public/images/Nuevo Cuaderno Inde-6.jpg" class="img img-9" alt="<h1>Inde</h1>"></li>
+		          	<li class="image box filter books-designs"><h4 class="lang" id="bke2">inde book<br><p>(external page)</p></h4><img src="./public/images/Nuevo Cuaderno Inde-2.jpg" class="img img-10" alt="<h1>Inde</h1>"></li>
+		          	<li class="image box filter books-designs"><h4 class="lang" id="bki2">inde book<br><p>(internal page)</p></h4><img src="./public/images/Nuevo Cuaderno Inde-5.jpg" class="img img-11" alt="<h1>Inde</h1>"></li>
+
+		          	<li class="image box filter books-designs"><h4 class="lang" id="bke3">inde book<br><p>(external page)</p></h4><img src="./public/images/Nuevo Cuaderno Inde-7.jpg" class="img img-12" alt="<h1>Inde</h1>"></li>
+		          	<li class="image box filter books-designs"><h4 class="lang" id="bki3">inde book<br><p>(internal page)</p></h4><img src="./public/images/Nuevo Cuaderno Inde-4.jpg" class="img img-13" alt="<h1>Inde</h1>"></li>
+		          	<li class="image box filter booklets-designs"><h4 class="lang" id="ble">baclogerd booklet<p>(external page)</p></h4><img src="./public/images/Baclogerd Folleto-1.jpg" class="img img-14" alt="<h1>Baclogerd</h1>"></li>
+
+		          	<li class="image box filter booklets-designs"><h4 class="lang" id="bli">baclogerd booklet<p>(internal page)</p></h4><img src="./public/images/Baclogerd Folleto-2.jpg" class="img img-15" alt="<h1>Baclogerd</h1>"></li>
+		          	<li class="image box filter booklets-designs"><h4 class="lang" id="tpye">mapreisa triptych<p>(external page)</p></h4><img src="./public/images/Triptico Mapreisa-1.jpg" class="img img-16" alt="<h1>Mapreisa</h1>"></li>
+		          	<li class="image box filter booklets-designs"><h4 class="lang" id="tpyi">mapreisa triptych<p>(internal page)</p></h4><img src="./public/images/Triptico Mapreisa-2.jpg" class="img img-17" alt="<h1>Mapreisa</h1>"></li>
+
+		          	<li class="image box filter calendars-designs"><h4 class="lang" key="cld">mannol calendar</h4><img src="./public/images/Calendario Mannol 2021.jpg" class="img img-18" alt="<h1>Mannol</h1>"></li>
+		          	<li class="image box filter cards-designs"><h4 class="lang" key="tja">business card</h4><img src="./public/images/Tarjeta presentacion.jpg" class="img img-19" alt="<h1>marketing</h1>"></li>
+		          	<li class="image box filter labels-designs"><h4 class="lang" key="etb">baxter label</h4><img src="./public/images/Etiqueta Baxter.jpg" class="img img-20" alt="<h1>Baxter</h1>"></li>
+
+		          	<li class="image box filter labels-designs"><h4 class="lang" key="eth">hedelix label</h4><img src="./public/images/Hedelix Nueva Etiqueta.jpg" class="img img-21" alt="<h1>Hedelix</h1>"></li>
+		          	<li class="image box filter labels-designs"><h4 class="lang" key="pgc">chocoleit sticker</h4><img src="./public/images/Sticker Chocoleit.jpg" class="img img-22" alt="<h1>Chocoleit</h1>"></li>
+		          	<li class="image box filter magazines-designs"><h4 class="lang" id="mze">tecun magazine<p>(external page)</p></h4><img src="./public/images/Revista Tecun-1.jpg" class="img img-23" alt="<h1>Tecun</h1>"></li>
+
+		          	<li class="image box filter magazines-designs"><h4 class="lang" id="mzi">tecun magazine<p>(internal page)</p></h4><img src="./public/images/Revista Tecun-2.jpg" class="img img-24" alt="<h1>Tecun</h1>"></li>
+		          	<li class="image box filter magazines-designs"><h4>tecun magazine<p>(pages 2 & 25)</p></h4><img src="./public/images/Revista Tecun-3.jpg" class="img img-25" alt="<h1>Tecun</h1>"></li>
+		          	<li class="image box filter magazines-designs"><h4>tecun magazine<p>(pages 3 & 24)</p></h4><img src="./public/images/Revista Tecun-4.jpg" class="img img-26" alt="<h1>Tecun</h1>"></li>
+
+		          	<li class="image box filter magazines-designs"><h4>tecun magazine<p>(pages 4 & 23)</p></h4><img src="./public/images/Revista Tecun-5.jpg" class="img img-27" alt="<h1>Tecun</h1>"></li>
+		          	<li class="image box filter magazines-designs"><h4>tecun magazine<p>(pages 5 & 22)</p></h4><img src="./public/images/Revista Tecun-6.jpg" class="img img-28" alt="<h1>Tecun</h1>"></li>
+		          	<li class="image box filter magazines-designs"><h4>tecun magazine<p>(pages 6 & 21)</p></h4><img src="./public/images/Revista Tecun-7.jpg" class="img img-29" alt="<h1>Tecun</h1>"></li>
+
+		          	<li class="image box filter magazines-designs"><h4>tecun magazine<p>(pages 7 & 20)</p></h4><img src="./public/images/Revista Tecun-8.jpg" class="img img-30" alt="<h1>Tecun</h1>"></li>
+		          	<li class="image box filter magazines-designs"><h4>tecun magazine<p>(pages 8 & 19)</p></h4><img src="./public/images/Revista Tecun-9.jpg" class="img img-31" alt="<h1>Tecun</h1>"></li>
+		          	<li class="image box filter magazines-designs"><h4>tecun magazine<p>(pages 9 & 18)</p></h4><img src="./public/images/Revista Tecun-10.jpg" class="img img-32" alt="<h1>Tecun</h1>"></li>
+
+		          	<li class="image box filter magazines-designs"><h4>tecun magazine<p>(pages 10 & 17)</p></h4><img src="./public/images/Revista Tecun-11.jpg" class="img img-33" alt="<h1>Tecun</h1>"></li>
+		          	<li class="image box filter magazines-designs"><h4>tecun magazine<p>(pages 11 & 16)</p></h4><img src="./public/images/Revista Tecun-12.jpg" class="img img-34" alt="<h1>Tecun</h1>"></li>
+		          	<li class="image box filter magazines-designs"><h4>tecun magazine<p>(pages 12 & 15)</p></h4><img src="./public/images/Revista Tecun-13.jpg" class="img img-35" alt="<h1>Tecun</h1>"></li>
+
+		          	<li class="image box filter magazines-designs"><h4>tecun magazine<p>(pages 13 & 14)</p></h4><img src="./public/images/Revista Tecun-14.jpg" class="img img-36" alt="<h1>Tecun</h1>"></li>
+		          	<li class="image box filter documents-designs"><h4 class="lang" key="hjm">esinsa letterhead</h4><img src="./public/images/Esinsa Hoja membretada.jpg" class="img img-37" alt="<h1>Esinsa</h1>"></li>
+		          	<li class="image box filter documents-designs"><h4 class="lang" key="afc">king express poster</h4><img src="./public/images/King Express Afiche.jpg" class="img img-38" alt="<h1>King Express</h1>"></li>
+
+		          	<li class="image box filter documents-designs"><h4 class="lang" key="facd">doanbo invoice</h4><img src="./public/images/FACTURA DOANBO 2020.jpg" class="img img-39" alt="<h1>Doanbo</h1>"></li>
+		          	<li class="image box filter documents-designs"><h4 class="lang" key="facm">las margaritas invoice</h4><img src="./public/images/Las Margaritas Factura.jpg" class="img img-40" alt="<h1>Las Margaritas</h1>"></li>
+		          	<li class="image box filter documents-designs"><h4 class="lang" key="rec">pharmakon receipt</h4><img src="./public/images/Recibo Pharmakon-1.jpg" class="img img-41" alt="<h1>Pharmakon</h1>"></li>
+
+		          	<li class="image box filter documents-designs"><h4 class="lang" key="rec">pharmakon receipt</h4><img src="./public/images/Recibo Pharmakon-2.jpg" class="img img-42" alt="<h1>Pharmakon</h1>"></li> 
+          		</div>
+          		<!-- Menu Desk -->
+        		<ul class="index-desk">
+        			<li class="link active lang btn-1" data-name="all-designs" key="all">All Designs</li>
+        			<li class="link lang btn-2" data-name="boxs-designs" key="box">Boxs Designs</li>
+        			<li class="link lang btn-3" data-name="books-designs" key="book">Books Designs</li>
+        			<li class="link lang btn-4" data-name="booklets-designs" key="bookle">Booklet Designs</li>
+        			<li class="link lang btn-5" data-name="calendars-designs" key="calendar">Calendar Designs</li>
+        			<li class="link lang btn-6" data-name="cards-designs" key="card">Card Designs</li>
+        			<li class="link lang btn-7" data-name="labels-designs" key="label">Label Designs</li>
+        			<li class="link lang btn-8" data-name="magazines-designs" key="magazine">Magazine Designs</li>
+        			<li class="link lang btn-9" data-name="documents-designs" key="document">Document Designs</li>
+        		</ul>
+        	</div>
+        	<div class="modal-container">
+        		<div class="box-model">
+        			<div class="details">
+        				<span class="img-index">
+              				<p class="current_img"></p>
+              				/ <p class="total_img"></p>
+            			</span>
+            			<span class="icon fas fa-times"></span>
+        			</div>
+        			<div class="image-container">
+        				<div class="slide prev">
+              				<i class="fas fa-chevron-left"></i>
+            			</div>
+            			<div class="slide next">
+              				<i class="fas fa-chevron-right"></i>
+            			</div>
+            			<div class="titles"></div>
+            			<div class="images">
+            				<img src="" class="img-show">
+            			</div>
+        			</div>
+        		</div>
+        	</div>
+		</section>
+		<!-- Contact -->
+		<section id="contact" class="section">
+        	<div class="title">
+          		<h2 class="lang" id="ctt">contact <span>me</span></h2>
+        	</div>
+        	<div class="internal-container">
+        		<div class="social-movil">
+        			<div class="nav">
+        				<input type="checkbox" class="check">
+						<div class="openBtn">
+							<i class="fas fa-arrows-alt"></i>
+						</div>
+						<div class="options">
+							<div><a href="tel:+502 3298-5137"><i class="fas fa-mobile"></i></a></div>
+							<div><a href="whatsapp://send?&phone=+502 3298-5137&abid=+502 3298-5137"><i class="fab fa-whatsapp-square"></i></a></div>
+							<div><a href="https://www.facebook.com/elfrendanilo/" target="_Blank"><i class="fab fa-facebook-square"></i></a></div>
+							<div><a href="https://www.instagram.com/elfren14/" target="_Blank"><i class="fab fa-instagram-square"></i></a></div>
+							<!-- <div><a href="#"><i class="fab fa-twitter-square"></i></a></div> -->
+						</div>
+        			</div>
+        		</div>
+          		<div class="massage">
+          			<form class="contact-form" action="https://formsubmit.co/elfren2005@hotmail.com" method="POST" target="_blank">
+          				<legend class="lang" id="eml">Send me em@il <i class="fas fa-envelope-open-text"></i></legend>
+            			<input id="nombre" type="text" name="name" placeholder="Name..." pattern="^[A-Za-zÑñÁÉÍÓÚáéíóú\s]+$" title="The field only accepts letters" required>
+            			<input id="correo" type="email" name="email" placeholder="Email..." pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" title="Please enter a valid mail" required>
+            			<input id="asunto" type="text" name="subject" placeholder="Subject..." title="The matter is required" required>
+            			<textarea id="comentario" name="comments" cols="50" rows="5" placeholder="Write your comment..." data-pattern="^.{1,255}$" title="Sorry!!!, The field doesn't allow more than 255 characters" required></textarea>
+            			<input type="submit" value="Send">
+            			<div class="cantact-form-loader none">
+              				<img src="assets/logos/ball-triangle.svg" alt="Loading">
+            			</div>
+            			<div class="contact-form-response none">
+              				<p class="lang" key="msg">The information has been successfully sent!!!</p>
+            			</div>
+          			</form>
+          		</div>
+          		<div class="social-desk">
+          			<div class="cards">
+          				<div class="card1">
+          					<div class="card" onclick="classList.toggle('expanded')">
+          						<img class="label1" src="./assets/logos/phone.png" alt="Phone" style="width: 200px;">
+          						<svg class="chevron" fill="#20E2D7" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"><path d="M6.293 13.293L7.707 14.707 12 10.414 16.293 14.707 17.707 13.293 12 7.586z"/></svg>
+          						<div class="text">
+          							<div class="content-text">
+          								<h3 class="title1 lang" key="num" style="font-size: 1.5rem">phone number</h3>
+          								<div class="body-text">
+          									<a href="tel:+502 3298-5137">
+                    							<i class="fas fa-mobile" style="font-size: 3rem"></i>
+                  							</a>
+                  							<a href="whatsapp://send?&phone=+502 3298-5137&abid=+502 3298-5137">
+                    							<i class="fab fa-whatsapp-square" style="font-size: 3rem"></i>
+                  							</a>
+          								</div>
+          							</div>
+          						</div>
+          					</div>
+          				</div>
+          				<div class="card2">
+          					<div class="card" onclick="classList.toggle('expanded')">
+          						<img class="label2" src="./assets/logos/social.png" alt="Social" style="width: 200px;">
+          						<svg class="chevron" fill="#20E2D7" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"><path d="M6.293 13.293L7.707 14.707 12 10.414 16.293 14.707 17.707 13.293 12 7.586z"/></svg>
+          						<div class="text">
+          							<div class="content-text">
+          								<h3 class="title1 lang" key="nws" style="font-size: 1.5rem">social media</h3>
+          								<div class="body-text">
+          									<a href="https://www.facebook.com/elfrendanilo/" target="_Blank">
+                   								<i class="fab fa-facebook-square" style="font-size: 3rem"></i>
+                  							</a>
+                  							<a href="https://www.instagram.com/elfren14/" target="_Blank">
+                    							<i class="fab fa-instagram-square" style="font-size: 3rem"></i>
+                  							</a>
+                  							<!-- <a href="#" target="">
+                    							<i class="fab fa-twitter-square" style="font-size: 3rem"></i>
+                  							</a> -->
+          								</div>
+          							</div>
+          						</div>
+          					</div>
+          				</div>
+          			</div>
+          		</div>
+        	</div>
+      	</section>
+	</main>
+
+	<!-- FOOTER -->
+	<footer class="section lang" id="foot">
+      	<p>
+        	copyright &copy; personal graphic design company
+        	<span id="date"></span>. all rights reserved
+      	</p>
+    </footer>
+
+    <!-- Button Scroll -->
+    <a class="scroll-link top-link" href="#home">
+      	<i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Button Translate -->
+    <button class="translate lang" id="es" key="trans">🇺🇸</button>
+
+
+    <!-- jQuery -->
+	<script type="text/javascript" src="./src/js/jquery.js"></script>
+    <!-- file javascript -->
+	<script type="text/javascript" src="./src/js/main.js"></script>
+	<!-- file translate -->
+	<script type="text/javascript" src="./src/js/translate.js"></script>
+</body>
+</html>
